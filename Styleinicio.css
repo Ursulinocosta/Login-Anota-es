@@ -1,0 +1,54 @@
+Body {
+  margin: 0;
+  padding: 0;
+  background-image: url(img/foto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.IconInicio {
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 45%;
+  padding: 4px;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  left: 45%;
+}
+.form {
+  font: 16px;
+  background: rgb(250, 236, 236);
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 10px 10px 10px;
+  border-radius: 5px;
+  border-color: black;
+}
+h1 {
+  color: #069;
+}
+input,
+textarea {
+  width: 370px;
+  padding: 10px;
+}
+.enviar input {
+  background-color: #069;
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.enviar input:hover {
+  background: rgb(252, 68, 68);
+}
+textarea {
+  min-block-size: 20px;
+  min-width: 370px;
+  max-width: 370px;
+  height: 120px;
+  line-height: 20px;
+}
